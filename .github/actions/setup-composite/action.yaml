@@ -19,8 +19,6 @@ runs:
     - name: Install Dependencies
       shell: bash
       run: |
-
-
         npm i
         npx playwright install
         
